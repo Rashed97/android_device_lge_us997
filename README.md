@@ -1,11 +1,11 @@
-## TWRP device tree for LG G5 (T-Mobile H830)
+## TWRP device tree for LG G6 (International H870)
 
-Add to `.repo/local_manifests/h830.xml`:
+Add to `.repo/local_manifests/h870.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lge/h830" name="android_device_lge_h830" remote="TeamWin" revision="android-6.0" />
+	<project path="device/lge/h870" name="android_device_lge_h870" remote="TeamWin" revision="android-6.0" />
 </manifest>
 ```
 
@@ -15,7 +15,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_h830-eng
+lunch omni_h870-eng
 make -j5 recoveryimage
 ```
 
