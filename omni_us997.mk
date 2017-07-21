@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := h870
+PRODUCT_RELEASE_NAME := us997
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -12,8 +12,8 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := h870
-PRODUCT_MODEL := LG-H870
-PRODUCT_NAME := omni_h870
+PRODUCT_DEVICE := us997
+PRODUCT_MODEL := LG-US997
+PRODUCT_NAME := omni_us997
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE

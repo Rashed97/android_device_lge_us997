@@ -1,11 +1,11 @@
-## TWRP device tree for LG G6 (International H870)
+## TWRP device tree for LG G6 (International US997)
 
-Add to `.repo/local_manifests/h870.xml`:
+Add to `.repo/local_manifests/us997.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lge/h870" name="android_device_lge_h870" remote="TeamWin" revision="android-6.0" />
+	<project path="device/lge/us997" name="android_device_lge_us997" remote="TeamWin" revision="android-6.0" />
 </manifest>
 ```
 
@@ -15,7 +15,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_h870-eng
+lunch omni_us997-eng
 make -j5 recoveryimage
 ```
 
